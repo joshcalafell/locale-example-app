@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Bungee|Bungee+Inline|Megrim|Nixie+One|Stint+Ultra+Expanded');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* font-family: 'Stint Ultra Expanded', sans-serif; */
+  background-color: #232323;
+}
+
+h1, h2, img, ul, li {
+  margin: 20px;
+}
+
+.app-header h1{
+  font-family: 'Averia Serif Libre', sans-serif;
+  color: white;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.app-header h2{
+  font-family: 'Nixie One', cursive;
+  color: mediumseagreen;
+}
+
+ul li, h2{
+  text-align: center;
+  list-style: none;
+}
+
+a {
+  font-family: 'Nixie One';
+  color: deepskyblue;
+}
+
+.links a {
+  font-size: 24px;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}

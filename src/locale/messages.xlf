@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="headerTitle" datatype="html">
+        <source>
+      Welcome to
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">An introduction header for this header</note>
+        <note priority="1" from="meaning">site header</note>
+      </trans-unit>
+      <trans-unit id="headerDate" datatype="html">
+        <source>
+          The date is
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">The date display</note>
+        <note priority="1" from="meaning">site subheader</note>
+      </trans-unit>
+      <trans-unit id="701174153757adf13e7c24a248c8a873ac9f5193" datatype="html">
+        <source>Angular logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="linksSectionHeader" datatype="html">
+        <source>
+        Here are some links to help you start:
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">The links section header</note>
+        <note priority="1" from="meaning">site links</note>
+      </trans-unit>
+      <trans-unit id="link1" datatype="html">
+        <source>
+                  Tour of Heroes
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">Tour of heroes link</note>
+        <note priority="1" from="meaning">site links</note>
+      </trans-unit>
+      <trans-unit id="link2" datatype="html">
+        <source>
+                  Documentation
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <note priority="1" from="description">Documentation link</note>
+        <note priority="1" from="meaning">site links</note>
+      </trans-unit>
+      <trans-unit id="link3" datatype="html">
+        <source>
+                Blog
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <note priority="1" from="description">Blog link</note>
+        <note priority="1" from="meaning">site links</note>
+      </trans-unit>
+      <trans-unit id="link4" datatype="html">
+        <source>
+                Internationalization
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <note priority="1" from="description">Internationalization link</note>
+        <note priority="1" from="meaning">site links</note>
+      </trans-unit>
+      <trans-unit id="c51a951d626c3a7a3be90572a89ec18488d7e255" datatype="html">
+        <source>
+                  XLiff Editor
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <note priority="1" from="description">Xliff link</note>
+        <note priority="1" from="meaning">site links</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

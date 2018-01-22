@@ -8,7 +8,15 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build-i18n:fr": "ng build --output-path=dist/fr --aot -prod --bh /fr/ --i18n-file=src/locale/messages.fr.xlf --i18n-format=xlf --locale=fr",
+    "build-i18n:ch": "ng build --output-path=dist/ch --aot -prod --bh /ch/ --i18n-file=src/locale/messages.ch.xlf --i18n-format=xlf --locale=ch",
+    "build-i18n:en": "ng build --output-path=dist/en --aot -prod --bh /en/ --i18n-file=src/locale/messages.en.xlf --i18n-format=xlf --locale=en",
+    "build-i18n": "npm run build-i18n:en && npm run build-i18n:ch && npm run build-i18n:fr",
+    "serve-i18n:en": "ng serve --aot -prod --bh /en/ --port 5280 --i18n-file=src/locale/messages.en.xlf --i18n-format=xlf --locale=en",
+    "serve-i18n:fr": "ng serve --aot -prod --bh /fr/ --port 5281 --i18n-file=src/locale/messages.fr.xlf --i18n-format=xlf --locale=fr",
+    "serve-i18n:ch": "ng serve --aot -prod --bh /ch/ --port 5282 --i18n-file=src/locale/messages.ch.xlf --i18n-format=xlf --locale=zh",
+    "serve-i18n": "npm run serve-i18n:fr && npm run serve-i18n:en && npm run serve-i18n:ch"
   },
   "private": true,
   "dependencies": {
@@ -26,6 +34,7 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
+    "@angular-devkit/core": "0.0.28",
     "@angular/cli": "1.6.3",
     "@angular/compiler-cli": "^5.0.0",
     "@angular/language-service": "^5.0.0",
