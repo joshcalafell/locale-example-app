@@ -3,6 +3,7 @@
   <file source-language="en" datatype="plaintext" original="ng2.template">
 
     <body>
+    
       <trans-unit id="headerTitle" datatype="html">
         <source> Welcome to
         </source>
@@ -14,6 +15,7 @@
         <note priority="1" from="meaning">site header</note>
         <target>Bienvenue à</target>
       </trans-unit>
+
       <trans-unit id="headerDate" datatype="html">
         <source> The date is
         </source>
